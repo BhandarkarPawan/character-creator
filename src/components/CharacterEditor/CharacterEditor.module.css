@@ -30,9 +30,9 @@
 .characterWrapper {
   position: fixed;
   min-height: 500px;
-  height: 100%;
-  right: 100px;
-  top: 0px;
+  left: 60%;
+  top: 20%;
+  bottom: 5%;
 }
 
 .controlColumn {
@@ -46,10 +46,4 @@
   bottom: 0;
   width: 100%;
   background-color: hsl(195deg, 20%, 86%);
-}
-
-@media (max-width: 400px) {
-  .characterWrapper {
-    right: 0px;
-  }
 }
